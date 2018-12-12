@@ -1,0 +1,131 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgSize {
+	width:99%; 
+	height:100px
+}
+
+.row1 {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.focusable {
+  outline: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+
+.focusable:focus {
+  opacity: 0.5;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+ul#menu li {
+  display:inline;
+  bottom: 0;
+    position: fixed;
+    font-size: 16px;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 30px !important;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: blue;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.textStyle{
+	font-size: 16px;
+    text-align: center;	
+	padding-bottom: 6px;
+}
+
+div.ex1 {
+  background-color: lightblue;
+  width: 1900px;
+  overflow-x: scroll;
+}
+
+.imgSize1{	
+	 width: 100px;
+	 height : 80px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 25%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
+.footer1 {
+   left: 0;
+}
+.footer2 {
+   left: 30%;
+}
+.footer3 {
+   left: 60%;
+}
+
+.footerColor {
+	background-color: yellowgreen !important;
+}
